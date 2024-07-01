@@ -1,0 +1,139 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: absolute;
+}
+.logo{
+    width: 100%;
+    color: red;
+}
+
+header{
+    background-color: #333;
+    padding: 20px;
+    
+
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    width: 60%;
+}
+.navbar .logo {
+    font-size: 1.5em;
+}
+.navbar .nav-links {
+    display: flex;
+    list-style-type: none;
+}
+.navbar .nav-links li {
+    margin: 0 15px;
+}
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+}
+.navbar .icons {
+    display: flex;
+    align-items: center;
+}
+.navbar .icons i {
+    margin-left: 15px;
+    cursor: pointer;
+}
+main{
+    padding: 30px;
+
+}
+h2{
+    /* text-align: center; */
+    margin-top: 40px;
+}
+.search-container {
+    margin-bottom: 20px;
+}
+.search-box {
+    /* width: 100%; */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+}
+.checkbox-group label {
+    margin-bottom: 5px;
+}
+
+
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill ,minmax(200px));
+    gap: 20px;
+
+}
+.grid-item-list{
+    display: flex;
+}
+.grid-item img{
+    width: 200px;
+    height: auto;
+    border: 1px solid #add;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px;
+
+}
+.contact-container {
+    display: flex;
+    align-items: flex-start;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-form {
+    width: 30%;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    /* width: 100%; */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.contact-form button {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: darkred;
+}
+.contact-info {
+    /* width: 35%; */
+}
+footer{
+background: #333;
+color: #fff;
+padding: 10px 0;
+position: fixed;
+width: 100%;
+bottom: 0;
+}
+
